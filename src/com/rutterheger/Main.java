@@ -11,7 +11,7 @@ class Main {
 
         Scanner scanner = new Scanner(System.in);
         while (player.isAlive()) {
-            System.out.println("wen moechten Sie angreifen? 'w' fuer Wolf oder 'h' fuer Hasen.");
+            System.out.println("Wen moechten Sie angreifen? 'w' fuer Wolf oder 'h' fuer Hasen.");
             String s = scanner.nextLine();
             if (s.equals("w"))
                 attack(player, wolf);
@@ -23,6 +23,7 @@ class Main {
                 rabbit = new Rabbit();
             else if (!wolf.isAlive())
                 wolf = new Wolf();
+            System.out.println("\n");
         }
         System.out.println("Der Spieler ist tot. Er hat sich " + player.getXP() + " Erfahrungspunkte erspielt. Das Spiel wird beendet.");
     }
