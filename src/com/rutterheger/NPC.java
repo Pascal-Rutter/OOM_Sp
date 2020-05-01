@@ -1,6 +1,17 @@
 package com.rutterheger;
 
-public class NPC extends Creature {
+class NPC extends Creature {
     //Aenderung aus dem Browser
     //noch ne Aenderung von IntelliJ PC
+
+    private final int availableXP;
+
+    NPC(int lives, int attack, int xp) {
+        super(lives, attack);
+        availableXP = xp;
+    }
+
+    int getAvailableXP() {
+        return availableXP;
+    }
 }

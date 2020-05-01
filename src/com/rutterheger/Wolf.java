@@ -1,4 +1,7 @@
 package com.rutterheger;
 
-public class Wolf extends NPC {
+class Wolf extends NPC {
+    Wolf() {
+        super(16, 5, 8);
+    }
 }
