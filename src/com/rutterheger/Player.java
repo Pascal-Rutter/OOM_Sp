@@ -1,5 +1,5 @@
 package com.rutterheger;
 
-public class Player {
+public class Player extends Creature {
 
 }

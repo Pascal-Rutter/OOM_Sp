@@ -1,4 +1,4 @@
 package com.rutterheger;
 
-public class NPC {
+public class NPC extends Creature {
 }

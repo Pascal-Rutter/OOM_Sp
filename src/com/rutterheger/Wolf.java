@@ -1,4 +1,4 @@
 package com.rutterheger;
 
-public class Wolf {
+public class Wolf extends NPC {
 }

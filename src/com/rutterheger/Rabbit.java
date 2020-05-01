@@ -1,4 +1,4 @@
 package com.rutterheger;
 
-public class Rabbit {
+public class Rabbit extends NPC {
 }
