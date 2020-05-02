@@ -5,6 +5,7 @@ import java.util.Scanner;
 class Main {
 
     private Main() {
+        System.out.println("Hallo das sit ein Test. Er sollte von @florianheger kommen.");
         Player player = new Player();
         Rabbit rabbit = new Rabbit();
         Wolf wolf = new Wolf();
